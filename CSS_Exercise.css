@@ -1,0 +1,24 @@
+body {
+    background-color: #ffff00;
+    /* text-align: center; */
+}
+
+p {
+    color: green;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.alignHeadings {
+    text-align: center;
+}
+
+#cool-text {
+    color:blue;
+}
+
+#listColor {
+    color: magenta;
+}

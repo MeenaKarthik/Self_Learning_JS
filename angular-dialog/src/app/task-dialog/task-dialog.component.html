@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Dialog Title</h1>
+<div mat-dialog-content>
+  <p>This is the content of the dialog.</p>
+  <div class="form-group">
+    <label for="dateInput" class="form-label">Status Change Date <span class="required">*</span></label>
+    <input type="date" id="dateInput" class="form-control">
+  </div>
+  
+  
+  <!--<p>Block Search <mat-slide-toggle [(ngModel)]="isToggled"></mat-slide-toggle></p>-->
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click) = "onSave()">Save</button>
+  <button mat-button mat-dialog-close>Close</button>
+</div>
+

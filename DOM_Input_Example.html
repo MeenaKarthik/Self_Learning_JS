@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Read and Update Input Value</title>
+</head>
+<body>
+      <form>
+        <label>Language <input type="text" name="language" id="language" value="JavaScript"></label>
+      </form>
+      <button id="update">Update Input Value</button>
+      <script>
+          let button = document.getElementById("update");
+          // add event handler for when button clicked
+          button.addEventListener("click", function() {
+              let input = document.getElementById("language");
+              console.log(input.value);
+              // now update the value in the input
+              input.value = input.value + " rocks!";
+              console.log(input.value);
+          });
+      </script>
+</body>
+</html>
